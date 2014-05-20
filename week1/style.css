@@ -31,8 +31,9 @@ a:hover, a:active, a:focus {
 
 .container {
 	width: auto;
+	max-width: 960px;
 	background-color: #FFF;
-	margin: 0 auto; 
+	margin: auto; 
 }
 
 .header {
@@ -47,30 +48,29 @@ a:hover, a:active, a:focus {
 	background-color: #FFF;
 }
 
-
 .content ul, .content ol {  
 	background-color: #FFF;
 }
 
-
 ul.nav {
 	float: left;
-	width: 180px;
 	list-style: none; 
-	border-top: 1px solid #8e95b1;
 	margin-bottom: 15px; 
 }
 ul.nav li {
-	border-bottom: 1px solid #8e95b1;
+	display: inline;
 }
 ul.nav a, ul.nav a:visited {
-	padding: 5px 5px 5px 15px;
-	display: block;
-	width: 160px;  
+	padding: 5px 15px 5px 15px;
+	width: auto;  
 	text-decoration: none;
 	background-color: #5890F4;
 }
 ul.nav a:hover, ul.nav a:active, ul.nav a:focus { 
 	background-color: #0F2A5B;
 	color: #FFF;
+}
+
+#btn {
+    display:none;
 }
