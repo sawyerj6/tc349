@@ -1,9 +1,12 @@
 /* light blue 0080FF*/
 /*grey-blue 6283A8*/
 /* grey C0C0C0*/
+body {
+	background-color: #C0C0C0;
+	width: 100%;
+}
 .container {
 	width: 80%;
-	background-color: #C0C0C0;
 }
 
 .nav {
