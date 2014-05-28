@@ -24,6 +24,7 @@ body {
 .topcontent {
 	display: block;
 	width: 60%;
+	height: 35%;
 	background-color: #0080FF;
 	float: left;
 }
@@ -31,6 +32,7 @@ body {
 .botcontent {
 	display: block;
 	width: 60%;
+	height: 35%;
 	background-color: #0080FF;
 	float: left;
 }
@@ -38,5 +40,12 @@ body {
 .sidecontent {
 	display: inline;
 	width: 40%;
+	height: 70%;
 	background-color: #0080FF;
+}
+
+.footer {
+	width: 80%;
+	height: 30%;
+	background-color: #000;
 }
