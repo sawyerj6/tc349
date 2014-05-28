@@ -21,18 +21,21 @@ body {
 }
 
 .topcontent {
+	display: block;
 	width: 60%;
 	background-color: #0080FF;
 	float: left;
 }
 
 .botcontent {
+	display: block;
 	width: 60%;
 	background-color: #0080FF;
 	float: left;
 }
 
 .sidecontent {
+	display: inline;
 	width: 40%;
 	background-color: #0080FF;
 }
