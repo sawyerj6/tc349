@@ -1,54 +1,75 @@
 /* light blue 0080FF*/
 /*grey-blue 6283A8*/
 /* grey C0C0C0*/
-body {
-	background-color: #C0C0C0;
-	width: 100%;
+body, html {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background: #C0C0C0;
 }
+
 .container {
-	width: auto;
-	max-width: 80%;
+	width: 80%;
 	margin: 0 auto;
 }
 
-.nav {
-	width: 80%;
-	background-color: #6283A8;
-	list-style-type:none;
+.header {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	background: #6283A8;
 }
 
-.nav li {
-	display: inline-block;
-	width: 40%;
+.nav ul {
+  list-style:none;
+  margin:20px;
+  padding:0;
 }
 
-.topcontent {
-	display: inline-block;
-	width: 60%;
-	height: 35%;
-	background-color: #0080FF;
+.nav ul li {
+  display:inline;
+  width: auto;
+}
+
+.nav ul li a {
+  text-decoration:none;
+  padding:5px 0;
+  background: #6283A8;
+  color: #fff;
+  text-align:center;
+  border-left:1px solid #C0C0C0;
+}
+
+.nav ul li a:hover {
+  background:#0080FF;
+  color:#fff;
+}
+
+.main {
+	background: #0080FF;
 	float: left;
+	width: 59%;
+	margin-bottom: 10px;
 }
 
-.botcontent {
-	display: inline-block;
-	width: 60%;
-	height: 35%;
-	background-color: #0080FF;
+.main_bot {
+	background: #0080FF;
 	float: left;
+	width: 59%;
+	margin-bottom: 10px;
 }
 
-.sidecontent {
-	display: inline-block;
-	width: 40%;
-	height: 70%;
-	background-color: #0080FF;
+.sidebar {
+	background: #0080FF;
+	width: 39%;
+	float: right;
+	margin-bottom: 10px;
+	margin-left: 10px;
 }
 
 .footer {
-	display: inline-block;
-	width: 80%;
-	height: 30%;
-	background-color: #000;
 	color: #fff;
+	background: #000;
+	clear: both;
+	padding: 10px;
 }
