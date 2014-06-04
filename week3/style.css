@@ -1,14 +1,16 @@
 body {
 	background: url(binding_dark.png);
 }
+
 .container {
-	margin: 0 3%;
+	margin: 0 5%;
 }
 
 header {
 	width: 100%;
-	background: #ccc;
-	color: #fff;
+	background: rgba(0, 0, 0, 0.3);/*transparent background*/
+	color: rgba(7, 73, 115, 0.9);
+	margin: 1%;
 }
 
 header h1 {
@@ -17,15 +19,17 @@ header h1 {
 
 .container header h1 {
 	text-align: left;
+	color: rgba(166, 27, 26, 0.3);
 }
 
 section {
 	text-align: center;
 }
 
-article {
+article { 
+	position: relative; 
 	display: inline-block;
-	width: 200px;
+	width: 400px;
 	margin: 10px;
 	padding: 10px;
 	background: none;
@@ -34,11 +38,29 @@ article {
 
 article img {
 	width: 100%;
+	border: solid 2px rgba(166, 27, 26, 0.3);
+}
+
+h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 12px; 
+   width: 100%;
+   text-align: left;
+
+}
+
+h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   background: rgba(0, 0, 0, 0.7);
+   padding: 8px; 
 }
 
 footer {
 	clear: both;
 	width: 100%;
-	background: #ccc;
-	color: #fff;
+	background: rgba(0, 0, 0, 0.3);
+	color: rgba(7, 73, 115, 0.9);
+	margin: 1%;
 }
