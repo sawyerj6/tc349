@@ -1,0 +1,44 @@
+body {
+	background: url(binding_dark.png);
+}
+.container {
+	margin: 0 3%;
+}
+
+header {
+	width: 100%;
+	background: #ccc;
+	color: #fff;
+}
+
+header h1 {
+	text-align: center;
+}
+
+.container header h1 {
+	text-align: left;
+}
+
+section {
+	text-align: center;
+}
+
+article {
+	display: inline-block;
+	width: 200px;
+	margin: 10px;
+	padding: 10px;
+	background: none;
+	color: #fff;
+}
+
+article img {
+	width: 100%;
+}
+
+footer {
+	clear: both;
+	width: 100%;
+	background: #ccc;
+	color: #fff;
+}
