@@ -97,15 +97,45 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+	border-top: 10px solid #424242;
+}
 
+h1, h2{
+	margin: 0;
+	color: #fff;
+}
 
+h1 {
+	padding-top: 450px;
+}
 
+h2 {
+	font-weight: normal;
+}
 
+header {
+	background: url(../img/skyline.jpg);
+	height: 500px;
+	padding: 30px;
+}
 
+#map-location {
+	background: #f3f3f3;
+	background-position: center;
+	height: 250px;
+	transition: background-image 1s;
+}
 
+nav {
+	float: left;
+	width: 250px;
+	color: #000;
+}
 
-
-
+article {
+	margin-left: 300px;
+}
 
 
 
