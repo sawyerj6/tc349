@@ -154,11 +154,21 @@ article {
     border-color: #aeccf9;
 }
 
+nav ul {
+    margin: 30px 0 0 40px;
+}
 
+nav a {
+    color: #424242;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    border-top: 1px solid #3e3e3e;
+}
 
-
-
-
+nav a:hover {
+    background: #ccc
+}
 
 /* ==========================================================================
    Helper classes
@@ -267,8 +277,13 @@ article {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media (max-width: 600px) {
+    nav {
+        float: none;
+        width: auto;    }
+    article {
+        margin-left: 20px;
+    }
 }
 
 @media print,
