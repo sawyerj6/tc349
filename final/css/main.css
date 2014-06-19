@@ -130,10 +130,20 @@ nav {
     color: #000;
 }
 
-article {
-    text-align: left;
-    clear: both;
-    margin-left: 28px;
+.wrap {
+    margin-left: 0 auto;
+    width: 800px;
+}
+
+section {
+    width: 474px;
+    float: left;
+}
+
+aside {
+    float: left;
+    padding-top: 33px;
+    width: 300px;
 }
 
 nav ul {
@@ -160,6 +170,7 @@ footer {
     height: 117px;
     background: url(../img/elca.jpg);
     background-repeat: no-repeat;
+    clear: both;
 }
 
 .gallery {
