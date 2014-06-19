@@ -119,7 +119,7 @@ ul {
     padding: 0;
 }
 
-header {
+.logo {
     height: 117px;
     background: url(../img/antioch_logo.gif);
     background-repeat: no-repeat;
@@ -166,6 +166,7 @@ footer {
 
 #gallery {
     background: url(../img/church.jpg);
+    background-repeat: no-repeat;
     background-position: center;
     height: 400px;
 }
