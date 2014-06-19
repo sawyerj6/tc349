@@ -126,7 +126,7 @@ ul {
 
 nav {
     text-align: center;
-    width: 500px;
+    width: 100%;
     color: #000;
 }
 
@@ -137,7 +137,6 @@ article {
 }
 
 nav ul {
-    text-align: center;
 }
 
 nav li {
@@ -163,7 +162,7 @@ footer {
     background-repeat: no-repeat;
 }
 
-#gallery {
+.gallery {
     background: url(../img/church.jpg);
     background-repeat: no-repeat;
     background-position: center;

@@ -9,33 +9,39 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link rel="icon" type="image/ico" href="../favicon.ico"/>
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
         <header>
-            <a href="index.html">
-                <img id="logo" src="img/antioch_logo.gif">
+            <a href="../index.html">
+                <img id="logo"src="../img/antioch_logo.gif">
             </a>
         </header>
-        <div id="gallery"></div>
+        <div class="gallery">
+        </div>
         <nav>
             <ul>
-                <li><a href="index.html">About Antioch</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About Antioch</a></li>
                 <li><a href="staff.html">Clergy and Staff</a></li>
                 <li><a href="education.html">Education</a></li>
                 <li><a href="calendar.html">Calendar</a></li>
             </ul>
         </nav>
-        </div>
+
         <article>
             <section id="about">
-                <h3>Upcoming Events</h3>
-                <iframe src="https://www.google.com/calendar/embed?src=sawyerj14%40gmail.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                <h2>About Antioch</h2>
+                <h3>Worship</h3>
+                <ul style="list-style-type:none;">
+                    <li>Sunday: 9:30 a.m.</li>
+                    <li>Wednesday: 7:30 p.m.</li>
+                </ul>
             </section>
         </article>
 
@@ -44,8 +50,12 @@
         </footer>
         <!-- Scripts -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="../js/plugins.js"></script>
+        <script src="../js/main.js"></script>
+        <script src="../js/skrollr.min.js"></script>
+        <script type="text/javascript">
+            var s = skrollr.init();
+        </script>
     </body>
 </html>
