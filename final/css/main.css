@@ -97,42 +97,18 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+header #logo{
+    border:1px solid #ccc;
+    border-width: 0 0 1px 0;
+    height: 117px;
+    float: left;
+    width: 100%
+}
+
 body {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-}
-
-h1, h2{
-    margin: 0;
-}
-
-h1 {
-}
-
-h2 {
-    font-weight: normal;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-#logo {
-    height: 117px;
-    float: left;
-}
-
-nav {
-    text-align: center;
-    width: 100%;
-    color: #000;
-}
-
-.wrap {
-    margin-left: 0 auto;
-    width: 800px;
 }
 
 section {
@@ -144,36 +120,11 @@ aside {
     float: left;
     padding-top: 33px;
     width: 300px;
-}
-
-nav ul {
-}
-
-nav li {
-    display: inline-block;
-}
-
-nav a {
-    color: #424242;
-    text-decoration: none;
-    padding: 10px;
-    display: inline-block;
-    border-right: 1px solid #A52A2A;
-    border-left: 1px solid #A52A2A;
-}
-
-nav a:hover {
-    background: #ccc
-}
-
-footer {
-    height: 117px;
-    background: url(../img/elca.jpg);
-    background-repeat: no-repeat;
-    clear: both;
+    padding-bottom: 15px;
 }
 
 .gallery {
+    padding-bottom: 15px;
     background: url(../img/church.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -181,6 +132,162 @@ footer {
     clear: both;
 }
 
+/*Main navigation styles*/
+.main_nav{
+    list-style:none;
+    text-align:center;
+}
+
+.main_nav ul {
+    margin: 0px;
+    padding:0px;
+}
+
+.main_nav li{
+    display:inline;
+
+}
+.main_nav a{
+    width: 15%;
+    display:inline-block;
+    padding:10px;
+    color: #fff;
+    padding: 15px;
+    background-color: #a90329;
+    border: 2px solid;
+    border-radius: 6px;
+}
+
+.main_nav a:hover {
+    background: #ccc
+}
+
+/*Left side navigation with easing*/
+.side_nav {
+    font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+    line-height: 1.5;
+    margin: 50px auto;
+    box-shadow: 0 0 10px #ccc;
+    text-align: left;
+    width: 15%;
+    margin-left: 20px;
+}
+
+.sub-menu {
+    background: #fff;
+    width: 100%;
+    margin: 0px;
+    padding: 0px; 
+}
+
+.sub-menu h4 {
+    border-bottom: 1px solid #eee;
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 7px 12px;
+    background-color: #fff;
+}
+
+.sub-menu h4 a {
+    color: #a90329;
+    display: block;
+    text-decoration: none;
+    width: 200px;
+}
+
+.sub-menu ul {
+  background: #fff;
+  font-size: 13px;
+  line-height: 30px;
+  list-style-type: none;
+  height: 0px;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+
+/*  Transitions*/
+    -webkit-transition: height 1s ease;
+     -moz-transition: height 1s ease;
+       -o-transition: height 1s ease;
+      -ms-transition: height 1s ease;
+          transition: height 1s ease;
+}
+
+.sub-menu:hover ul {
+  height: 93px;
+}
+ 
+.sub-menu ul a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #aaa;
+  display: block;
+  width: 200px;
+}
+ 
+
+.sub-menu li {
+  border-bottom: 1px solid #eee;
+}
+ 
+.sub-menu li:hover {
+  background: #eee;
+}
+
+/*Directory stylings for About page*/
+.directory {
+    padding-left: 25%;
+    float: left;
+    width: 60%;
+    max-width: 65%;
+}
+
+.directory img {
+    float: left;
+}
+
+.directory #info {
+    float: left;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 5px;
+}
+
+.directory li {
+    width: 100%;
+    float: left;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 2% 2% 0;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px #ccc;
+    text-align: right;
+}
+
+#info p {
+    margin: 0px;
+    padding: 2px;
+}
+
+
+/*Footer and image styles*/
+footer {
+    height: 117px;
+    clear: both;
+    border:1px solid #ccc;
+    border-width: 1px 0 0 0;
+    width: 100%;
+    padding-top: 10px;
+}
+
+footer #logo{
+    border:1px solid #ccc;
+    border-width: 0 0 1px 0;
+    height: 117px;
+    float: left;
+    width: 100%
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */

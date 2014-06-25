@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Antioch Staff</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/ico" href="../favicon.ico"/>
@@ -18,13 +18,15 @@
     </head>
     <body>
         <header>
-            <a href="../index.html">
-                <img id="logo"src="../img/antioch_logo.gif">
-            </a>
+            <div id="logo">
+                <a href="../index.html">
+                    <img src="../img/antioch_logo.gif">
+                </a>
+            </div>
         </header>
         <div class="gallery">
         </div>
-        <nav>
+        <nav class="main_nav">
             <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="about.html">About Antioch</a></li>
@@ -34,17 +36,121 @@
             </ul>
         </nav>
 
+        <!-- Side Navigation for quickly getting to parts of the directory -->
+        <nav class="side_nav"
+        data-0="position:absolute;top:587px;" data-587="position:absolute;top:587px;" data-1500="position:absolute;top:1550px;">
+            <div class="sub-menu">
+                <h4><a href="#leaders">Church Leadership</a></h4>
+                <ul>
+                    <li><a href="#pastor">Pastor</a></li>
+                    <li><a href="#cantor">Cantor</a></li>
+                    <li><a href="#education">Director of Education</a></li>
+                </ul>
+            </div>
+            <div class="sub-menu">
+                <h4><a href="#staff">Office Staff</a></h4>
+                <ul>
+                    <li><a href="#secretary">Secretary</a></li>
+                    <li><a href="#publisher">Publisher</a></li>
+                    <li><a href="#bookkeeper">Bookkeeper</a></li>
+                </ul>
+            </div>
+            <div class="sub-menu">
+                <h4><a href="#preschool">Antioch Preschool</a></h4>
+                <ul>
+                    <li><a href="#director">Director</a></li>
+                    <li><a href="#teacher">Teacher</a></li>
+                </ul>
+            </div>
+            </nav>
+
+        <!-- Directory entries for staff -->
         <article>
-            <section id="about">
-                <h3>Welcome!</h3>
-                <p>"As a Christ-centered congregation, we are called to teach, grow, and serve the people of God."</p>
-                <p>Welcome to the webpage of Antioch Lutheran Church located in Farmington Hills, Michigan!
-                </p>
-            </section>
+            <ul class="directory">
+
+                <li id="leaders"><h3 style="float:left; margin:0px;">Church Leadership</h3></li>
+                <li id="pastor">
+                    <img src="../img/staff.gif">
+                    <div id="info">
+                        <p>Pastor David Vinciguerra</p>
+                        <a href="mailto:prdvinciguerra@sbcglobal.net">
+                        prdvinciguerra@sbcglobal.net</a>
+                    </div>
+                </li>
+                <li id="cantor">
+                    <img src="../img/staff.gif">
+                    <div id="info">
+                        <p>Cantor: Amy Studt</p>
+                        <a href="mailto:astudt@sbcglobal.net">
+                        astudt@sbcglobal.net</a>
+                    </div>
+                </li>
+                <li id="education">
+                    <img src="../img/staff.gif">
+                    <div id="info">
+                        <p>Director of Christian Education:</p>
+                        <p>Susanna Muzzin</p>
+                        <a href="mailto:smuzzin@sbcglobal.net">
+                        smuzzin@sbcglobal.net</a>
+                    </div>
+                </li>
+
+                <li id="staff"><h3 style="float:left; margin:0px;">Office Staff</h3></li>
+                <li id="secretary">
+                    <img src="../img/staff.gif">
+                    <div id="info">
+                        <p>Parish Administrator/ Seretary</p>
+                        <p>Geela Green</p>
+                        <a href="mailto:antiochELCA@sbcglobal.net">
+                        pantiochELCA@sbcglobal.net</a>
+                    </div>
+                </li> 
+                <li id="publisher">
+                    <img src="../img/staff.gif">
+                    <div id="info">
+                        <p>Publisher</p>
+                        <p>Tammy Sawyer</p>
+                        <a href="mailto:antiochpublishing@sbcglobal.net">
+                        antiochpublishing@sbcglobal.net</a>
+                    </div>
+                </li>
+                <li id="bookkeeper">
+                    <img src="../img/staff.gif">
+                    <div id="info">
+                        <p>Bookkeeper</p>
+                        <p>Brenda Soderlund</p>
+                        <a href="mailto:antiochfinance@sbcglobal.net">
+                        antiochfinance@sbcglobal.net</a>
+                    </div>
+                </li>
+                
+                <li id="preschool"><h3 style="float:left; margin:0px;">Antioch Preschool</h3></li>
+                <li id="director"> 
+                    <img src="../img/staff.gif">
+                    <div id="info">
+                        <p>Antioch Preschool Director</p>
+                        <p>Sharon Detter</p>
+                        <a href="mailto:antiochpreschool@sbcglobal.net">
+                        antiochpreschool@sbcglobal.net</a>
+                    </div>
+                </li>
+                <li id="teacher">
+                    <img src="../img/staff.gif">
+                    <div id="info">
+                        <p>Antioch Preschool Teacher</p>
+                        <p>Lynne Gagner</p>
+                        <a href="mailto:antiochpreschool@sbcglobal.net">
+                        antiochpreschool@sbcglobal.net</a>
+                    </div>
+                </li>
+            </ul>
         </article>
-
         <footer>
-
+            <div id="logo">
+                <a href="index.html">
+                    <img src="../img/elca.jpg">
+                </a>
+            </div>
         </footer>
         <!-- Scripts -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
