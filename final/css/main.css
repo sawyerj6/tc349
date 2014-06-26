@@ -102,7 +102,7 @@ header #logo{
     border-width: 0 0 1px 0;
     height: 117px;
     float: left;
-    width: 100%
+    width: 95%
 }
 
 body {
@@ -112,6 +112,7 @@ body {
 }
 
 section {
+    padding-left: 42px;
     width: 474px;
     float: left;
 }
@@ -139,26 +140,26 @@ aside {
 }
 
 .main_nav ul {
-    margin: 0px;
-    padding:0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main_nav li{
-    display:inline;
-
+    float: left;
+    padding: 5px;
+    background-color: #a90329;
+    border: 1px solid;
+    border-radius: 6px;
+    border-color: #fff; 
+    width: 16%;
+    padding: 8px 0 8px 0;
 }
 .main_nav a{
-    width: 15%;
-    display:inline-block;
-    padding:10px;
     color: #fff;
-    padding: 15px;
-    background-color: #a90329;
-    border: 2px solid;
-    border-radius: 6px;
+    text-decoration: none;
 }
 
-.main_nav a:hover {
+.main_nav li:hover {
     background: #ccc
 }
 
